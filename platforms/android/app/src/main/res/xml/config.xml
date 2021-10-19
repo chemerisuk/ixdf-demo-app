@@ -9,6 +9,7 @@
     </author>
     <content src="https://www.interaction-design.org/literature" />
     <access origin="*" />
+    <allow-navigation href="https://www.interaction-design.org/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
