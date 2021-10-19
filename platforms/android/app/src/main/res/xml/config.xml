@@ -1,5 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.ixdf.cordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
     <name>IxDF</name>
     <description>
         A demo app for interaction-design.org
@@ -16,6 +20,21 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
+    <splash density="land-hdpi" src="resources/android/drawable-land-hdpi/screen.png" />
+    <splash density="land-ldpi" src="resources/android/drawable-land-ldpi/screen.png" />
+    <splash density="land-mdpi" src="resources/android/drawable-land-mdpi/screen.png" />
+    <splash density="land-xhdpi" src="resources/android/drawable-land-xhdpi/screen.png" />
+    <splash density="land-xxhdpi" src="resources/android/drawable-land-xxhdpi/screen.png" />
+    <splash density="land-xxxhdpi" src="resources/android/drawable-land-xxxhdpi/screen.png" />
+    <splash density="port-hdpi" src="resources/android/drawable-port-hdpi/screen.png" />
+    <splash density="port-ldpi" src="resources/android/drawable-port-ldpi/screen.png" />
+    <splash density="port-mdpi" src="resources/android/drawable-port-mdpi/screen.png" />
+    <splash density="port-xhdpi" src="resources/android/drawable-port-xhdpi/screen.png" />
+    <splash density="port-xxhdpi" src="resources/android/drawable-port-xxhdpi/screen.png" />
+    <splash density="port-xxxhdpi" src="resources/android/drawable-port-xxxhdpi/screen.png" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="AppendUserAgent" value="IxDF/1.0.0" />
+    <preference name="SplashScreenDelay" value="5000" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
 </widget>
